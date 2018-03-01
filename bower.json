@@ -1,0 +1,26 @@
+{
+  "name": "simple-arq-gulp",
+  "description": "Arquetipo para web simple con gulp",
+  "main": "index.js",
+  "authors": [
+    "Juan Ramirez"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "arquetipo",
+    "gulp",
+    "sass"
+  ],
+  "homepage": "https://github.com/juramirezp/simple-arq-gulp",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "bootstrap": "^4.0.0"
+  }
+}

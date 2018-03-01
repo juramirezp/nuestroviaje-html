@@ -1,0 +1,44 @@
+{
+  "name": "simple-arq-gulp",
+  "version": "1.0.0",
+  "description": "Arquetipo para web simple con gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juramirezp/simple-arq-gulp.git"
+  },
+  "keywords": [
+    "arquetipo",
+    "gulp",
+    "sass"
+  ],
+  "author": "Juan Ramirez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juramirezp/simple-arq-gulp/issues"
+  },
+  "homepage": "https://github.com/juramirezp/simple-arq-gulp#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "bower": "^1.8.2",
+    "browser-sync": "^2.23.5",
+    "crlab-gulp-combine-media-queries": "^1.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-babel": "^7.0.0",
+    "gulp-html-minifier2": "^1.1.8",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-pug2": "0.0.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-stylus": "^2.7.0",
+    "gulp-tinypng": "^1.0.2",
+    "gulp-uglify": "^3.0.0"
+  },
+  "dependencies": {
+    "gulp-web-dependencies": "^1.1.2"
+  }
+}

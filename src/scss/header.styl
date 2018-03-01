@@ -1,0 +1,41 @@
+header 
+    min-height 80vh
+    position relative
+    .logo
+        a
+            text-decoration none
+            font-family 'Pacifico'
+            color $color-6
+            font-size 30px
+            position absolute
+            left 30px
+            top 5px
+            z-index 2
+    .menu
+        position absolute
+        top 20px
+        right 30px
+        z-index 2
+        a
+            padding 20px
+            text-decoration none
+            color white
+            &:hover
+                background-color rgba(255,255,255,.1)
+    .fondo
+        background-image url('../img/header.jpg')
+        width 100%
+        height 80vh
+        background-size cover
+        .title, .subtitle
+            margin 0
+            position absolute
+            color white
+            text-align center
+            width 100%
+        .title
+            font-size 4em
+            bottom 50px
+        .subtitle
+            bottom 20px
+            font-size 2em
